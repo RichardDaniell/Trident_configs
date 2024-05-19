@@ -10,12 +10,10 @@ Attributes to:
 Please be sure to check the details if you are copying configs/macros from here to your machine. 
 
 Sofware updates/fixes required:
- - skirt fan correct temperature control and lower speed
  - Automatic offset calculation (klicky+endstop)
- - Bed mesh reliability
- - Extruder load/unload distances
- - KAMP
  - Preparation sequence macro (using claudermilk example)
+ - Extruder load/unload distances
+ - KAMP/bed mesh 
  - Tidy CFG files and greencode
 
 My current hardware mod/specs on the Trident are:
@@ -29,11 +27,14 @@ My current hardware mod/specs on the Trident are:
    - CW2
    - w/ Revo Voron
    - HUVUUD 0.62 EB42 can board
- - Customised Revo Hotend holder on skirt (mod from X)
+ - Customised Revo Hotend holder on skirt
  - Raspberry pi  4 w/ RS485 can hat
+ - chamber thermistor
+ - Noctura skirt fans
+ - Magnetic top panel and electronics panel
+   
  
 Future plans / upgrades.
- - Chamber thermistor - physically installed just need to crimp and connect
  - Front panel buttons (FYSTEC)
  - Ramalama2 pin front idlers or other
  - Chamber camera OV5648 160deg
@@ -44,6 +45,5 @@ Future plans / upgrades.
  - SB or XOL toolhead
    - Orbiter 2 w/ filament sensor.
    - EBB36 (for orbiter 2.0)
-   - Beacon/Euclid? Tap? undecided
-   - Obsidian Revo nozzle for printing w/ carbon fibre
+   - Beacon
  - Obico home server (I've got a V0.1 as well…)
