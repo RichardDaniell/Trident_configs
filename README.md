@@ -6,15 +6,18 @@ Attributes to:
 - Claudermilk
 - Andrew Ellis
 - Brad Serls who got me hooked.
+- Youtube posters, Discord helpers and repo sharers!
  
 Please be sure to check the details if you are copying configs/macros from here to your machine. 
 
 Sofware updates/fixes required:
- -Fix sensorless x&y
- - Tidy CFG files and greencode (redundant klicky cfgs etc0
+ - Calibrate sensorless x&y
+ - Tidy CFG files and greencode (redundant klicky cfgs etc), tidier folder setup in printer_config
  - Preparation sequence macro (using claudermilk example)
- - Orbiter 2.0 tuning
- - KAMP/bed mesh 
+ - Replace 2 off bed fans. 
+ - Orbiter 2.0 tuning.
+ - KAMP/bed mesh function.
+ - nozzle LED 1 off fix (likely damaged solder)
 
 My current hardware mod/specs on the Trident are:
  - Octopus V1.0
@@ -36,10 +39,10 @@ My current hardware mod/specs on the Trident are:
  - Chamber camera OV5648 160deg
  
 Future plans / upgrades.
+ - better usb/can cable support
+ - blanking plate and remove rear vent fan arranagement
  - Front panel buttons (FYSTEC)
  - Internal spool holder, relocate bowden
- - better usb cable support
  - nozzle camera w/ obico (will need to have usb cable or powered hub?)
  - Obico home server
- - blanking plate and remove rear vent fan arranagement
  - Filament sensor (orbiter or other).
