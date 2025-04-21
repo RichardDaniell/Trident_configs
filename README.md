@@ -11,38 +11,39 @@ Attributes to:
 Please be sure to check the details if you are copying configs/macros from here to your machine. 
 
 Sofware updates/fixes required:
- - Calibrate sensorless x&y
- - Tidy CFG files and greencode (redundant klicky cfgs etc), tidier folder setup in printer_config
- - Preparation sequence macro (using claudermilk example)
- - Replace 2 off bed fans. 
+ - Calibrate sensorless x&y (keep checking if any false triggers, increase dwell time)
+ - Tidy CFG files and greencode (redundant klicky cfgs etc), tidier folder setup in printer_config (i.e. separate stepper cfg, separate extruder cfg...)
+ - Preparation sequence macro tidy/create based 
  - Orbiter 2.0 tuning.
- - KAMP/bed mesh function.
+ - adaptive bed mesh function.
  - nozzle LED 1 off fix (likely damaged solder)
+ - resonance testing
 
 My current hardware mod/specs on the Trident are:
  - Octopus V1.0
  - Waveshare 4.3" touchscreen with Klipperscreen
  - Sensorless x & y 
- - Purge bucket and nozzle brush (decontaminator)
+ - Purge bucket and silicon nozzle brush (decontaminator)
  - LED strip case lights
- - Carto 3d
  - XOL:
    - Orbiter 2.0
    - w/ Revo Voron
    - Nitehawk 36
+   - carto 3d
  - Raspberry pi  4 
  - chamber thermistor
  - Ellis mod 24v bed fans x 4
  - Noctura skirt fans
  - Customised Revo Hotend holder on skirt
- - Magnetic top panel and electronics panel
+ - Magnetic top panel and electronics panel cover
  - Chamber camera OV5648 160deg
  
 Future plans / upgrades.
  - better usb/can cable support
+ - spool ptfe support
+ -  Internal spool holder, relocate bowden
  - blanking plate and remove rear vent fan arranagement
  - Front panel buttons (FYSTEC)
- - Internal spool holder, relocate bowden
  - nozzle camera w/ obico (will need to have usb cable or powered hub?)
  - Obico home server
  - Filament sensor (orbiter or other).
