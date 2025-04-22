@@ -17,7 +17,8 @@ Sofware updates/fixes required:
  - Orbiter 2.0 tuning.
  - adaptive bed mesh function.
  - nozzle LED 1 off fix (likely damaged solder)
- - resonance testing
+ - filament ptfe guide rear vent mount
+ - resonance testing 
 
 My current hardware mod/specs on the Trident are:
  - Octopus V1.0
