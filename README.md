@@ -12,13 +12,11 @@ Attributes to:
 Please be sure to check the details if you are copying configs/macros from here to your machine. 
 
 Sofware updates/fixes required:
- - Tidy CFG files and greencode, tidier folder setup in printer_config (i.e. separate stepper cfg, separate extruder cfg...)
- - Refine Preparation sequence macro get working 
- - Improve print end macro
- - Orbiter 2.0 tuning.
- - nozzle LED 1 off fix (likely damaged solder)
- - filament ptfe guide rear vent mount / internal spool mount
- - resonance testing 
+ - Print start macro include nozzle wipe pre carto touch sequence and randomise carto touch location to reduce bed wear.
+ -  Bed mesh slight tweak to offsets
+ - Improve print end macro - nozzle location
+ - nozzle LED 1 off fix (likely damaged at solder during installation)
+ - resonance tune
 
 My current hardware mod/specs on the Trident are:
  - Octopus V1.0
@@ -34,14 +32,19 @@ My current hardware mod/specs on the Trident are:
  - Raspberry pi  4 
  - chamber thermistor
  - Ellis mod 24v bed fans x 4
- - Noctura skirt fans
+ - Noctura quiet skirt fans mod
  - Customised Revo Hotend holder on skirt
  - Magnetic top panel and electronics panel cover
  - Chamber camera OV5648 160deg
+ - rear vent delete w/ filament feed.
  
 Future plans / upgrades.
- - Internal spool holder, relocate bowden
- - blanking plate and remove rear vent fan arranagement
- - Front panel buttons (FYSTEC)
- - nozzle camera
+ - Frame braces print and install
+ - Paver+rubber for base (get rid of vibration in shelf)
+ - Clicky clack door mod (quieter and fume reduction)
+ - more dense foam for panel seals 
+ - Magnetic/clip side panels  
+ - Front panel buttons (FYSTEC) - Hold off as prob not great for kids
+ - lift handles print and install
+ - nozzle camera 
  - Filament sensor (orbiter or other).
