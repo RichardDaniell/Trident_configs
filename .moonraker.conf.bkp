@@ -28,7 +28,7 @@ trusted_clients =
 
 [announcements]
 subscriptions = 
-	mainsail
+	octoeverywhere
 
 [update_manager]
 refresh_interval = 168
@@ -87,4 +87,15 @@ is_system_service = False
 managed_services = klipper
 info_tags = 
 	desc=Cartographer Probe
+
+[update_manager octoeverywhere]
+type = git_repo
+channel = beta
+path = /home/vorontrident_pi/octoeverywhere
+origin = https://github.com/QuinnDamerell/OctoPrint-OctoEverywhere.git
+env = /home/vorontrident_pi/octoeverywhere-env/bin/python
+requirements = requirements.txt
+install_script = install.sh
+managed_services = 
+	octoeverywhere
 
