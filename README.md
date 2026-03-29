@@ -12,9 +12,8 @@ Attributes to:
 Please be sure to check the details if you are copying configs/macros from here to your machine. 
 
 Sofware updates/fixes required:
- - Print start macro include nozzle wipe pre carto touch sequence and randomise carto touch location to reduce bed wear.
- -  Bed mesh slight tweak to offsets
- - Improve print end macro - nozzle location
+ - Print start macro randomise carto touch location to reduce bed wear.
+ - print start macro speed up sequence esp wrt heating.
  - nozzle LED 1 off fix (likely damaged at solder during installation)
  - resonance tune
 
@@ -37,7 +36,8 @@ My current hardware mod/specs on the Trident are:
  - Magnetic top panel and electronics panel cover
  - Chamber camera OV5648 160deg
  - rear vent delete w/ filament feed.
- 
+ - top lifting handles  
+
 Future plans / upgrades.
  - Frame braces print and install
  - Paver+rubber for base (get rid of vibration in shelf)
@@ -45,6 +45,5 @@ Future plans / upgrades.
  - more dense foam for panel seals 
  - Magnetic/clip side panels  
  - Front panel buttons (FYSTEC) - Hold off as prob not great for kids
- - lift handles print and install
  - nozzle camera 
  - Filament sensor (orbiter or other).
